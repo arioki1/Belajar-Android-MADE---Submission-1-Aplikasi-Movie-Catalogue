@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="16dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:id="@+id/iv_list_home"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iv_list_home"
+        android:paddingLeft="5dp"
+        android:hint="Uji COba"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:gravity="left"
+        android:id="@+id/tv_list_title_home"
+        android:layout_marginBottom="16dp"/>
+    <TextView
+        android:layout_toRightOf="@id/iv_list_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_list_title_home"
+        android:hint="Rating 7.2"
+        android:paddingLeft="5dp"
+        android:id="@+id/tv_list_rating_home"/>
+    <TextView
+        android:id="@+id/tv_list_description_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_list_rating_home"
+        android:layout_toRightOf="@id/iv_list_home"
+        android:paddingTop="10dp"
+        android:hint="  Pulau Sumatra merupakan kawasan episentrum gempa bumi karena dilintasi oleh patahan kerak bumi disepanjang Bukit Barisan, yang ..."
+        android:paddingLeft="5dp"
+        android:maxLength="70"/>
+
+</RelativeLayout>
